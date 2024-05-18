@@ -16,7 +16,7 @@ img{
 }
 
 .button{
-    background:#DF691A;
+    background:#007BFF; /* Azul vivo */
     text-decoration: none;
     padding: 15px;
     margin-top: 15px;
@@ -27,14 +27,13 @@ img{
 .button:hover{
     cursor: pointer;
     text-decoration: none;
-    background-color: #9a4912;
+    background-color: #0056b3; /* Azul más oscuro para hover */
     color: #f2f2f2;
 }
 
-
 /*menu*/
 header{
-    background:#333;
+    background:#1F4E79; /* Azul oscuro */
     color:#f2f2f2;
     padding: 1rem 0;
     position: fixed;
@@ -143,7 +142,7 @@ header a{
     display: block;
 }
 .button-vaciar{
-    background:#17A2B8;
+    background:#007BFF; /* Azul vivo */
     text-decoration: none;
     padding: 15px;
     margin-top: 15px;
@@ -154,11 +153,11 @@ header a{
 .button-vaciar:hover{
     cursor: pointer;
     text-decoration: none;
-    background-color: #0c505a;
+    background-color: #0056b3; /* Azul más oscuro para hover */
     color: #f2f2f2;
 }
 .button-pedido{
-    background:#28A745;
+    background:#1F4E79; /* Azul oscuro */
     text-decoration: none;
     padding: 15px;
     margin-top: 15px;
@@ -169,10 +168,9 @@ header a{
 .button-pedido:hover{
     cursor: pointer;
     text-decoration: none;
-    background-color: #1e612e;
+    background-color: #003f7f; /* Azul más oscuro para hover */
     color: #f2f2f2;
 }
-
 
 main{
     padding-top: 6rem;
@@ -212,7 +210,6 @@ main{
     100%{margin-left: -200%;}
 }
 
-
 /*circulo imagenes*/
 .container-circulos{
     /* display:flex; */
@@ -233,7 +230,7 @@ main{
 .circulo{    
     width: 60%;
     border-radius: 50%;
-    border:2px solid  #DF691A;
+    border:2px solid  #007BFF; /* Azul vivo */
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
 }
 .ver-todo{
@@ -251,7 +248,6 @@ main{
     margin: auto;
 }
 
-
 /*contacto*/
 .container-contacto{
     background-image: url("../img/bg-contacto.jpg");
@@ -261,7 +257,6 @@ main{
     padding: 6rem 0;
 }
 .container-contacto form{
-   
     width: 450px;
     margin:auto;
     background:rgba(0,0,0,0.4);
@@ -292,7 +287,6 @@ main{
     max-width: 100%;
 }
 
-
 /*productos-modal*/
 .modal{
     width: 100%;
@@ -322,7 +316,7 @@ main{
     width: 50px;
     height: 50px;
     line-height: 50px;
-    background:#DF691A;
+    background:#007BFF; /* Azul vivo */
     font-size: 2em;
     text-align: center;
     border-radius: 50%;
@@ -331,7 +325,6 @@ main{
 .modal-open{
     display: block;
 }
-
 
 /*productos-card*/
 .container-productos{
@@ -349,7 +342,7 @@ main{
     background: #4E5D6C;
     color:#f2f2f2;
     border-radius: 8px;
-    border:1px solid  #DF691A;
+    border:1px solid  #007BFF; /* Azul vivo */
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
     overflow: hidden;
     margin: 20px;
@@ -380,7 +373,6 @@ main{
     margin: 0 auto;
 }
 
-
 /*contenido*/
 .container{
     width: 100%;
@@ -392,17 +384,12 @@ main{
     margin: 5% auto;
 }
 
-
 /*columnas*/
 .columna1{
     width: 50%;
-    /* float: left;
-    padding-left: 25px; */
     text-align: center;
 }
 .columna2{
-    /* width: 40%;
-    float: right; */
 }
 .columna2 img{
     width: 450px;
@@ -424,7 +411,6 @@ main{
     padding: 10px 20px;
 }
 .container-carrito form .contenido{
-    
     padding: 10px 20px;
 }
 .container-carrito form .titulo{
@@ -438,7 +424,7 @@ main{
     box-sizing: border-box;
     font-size: 17px;
     border-radius: 8px;
-    border:1px solid  #DF691A;
+    border:1px solid  #007BFF; /* Azul vivo */
 }
 #total{
     border: 0; 
@@ -462,7 +448,6 @@ main{
     justify-content: center;
 }
 
-
 .tabla {
     width: 100%;
     max-width: 100%;
@@ -474,13 +459,11 @@ main{
     padding: .75rem;
     border-top: 1px solid #dee2e6;
     text-align: center;
-
 }
 .tabla thead th {
     vertical-align: bottom;
     border-bottom: 2px solid #dee2e6;
 }
-
 
 /*footer*/
 .footer-menu ul {
@@ -491,7 +474,7 @@ main{
     max-width: 1140px;
 }
 .copyright-area{
-  background: #202020;
+  background: #1F4E79; /* Azul oscuro */
   padding: 25px 0;
 }
 .copyright-text p {
@@ -500,7 +483,7 @@ main{
   color: #878787;
 }
 .copyright-text p a{
-  color: #ff5e14;
+  color: #007BFF; /* Azul vivo */
   text-decoration: none;
 }
 .footer-menu li {
@@ -508,7 +491,7 @@ main{
   margin-left: 20px;
 }
 .footer-menu li:hover a{
-  color: #ff5e14;
+  color: #007BFF; /* Azul vivo */
 }
 .footer-menu li a {
   font-size: 14px;
@@ -539,7 +522,7 @@ main{
 }
 
 .col-xl-6{
-	    position: relative;
+    position: relative;
     width: 100%;
     min-height: 1px;
     padding-right: 15px;
@@ -556,7 +539,6 @@ main{
     margin-right: auto;
     margin-left: auto;
 }
-
 
 @media (max-width: 800px) {
 
@@ -597,12 +579,10 @@ main{
         height: 250px;
     }
 
-
     /*slider*/
     .slider{
         padding-top: 5rem;
     }
-
 
     /*circulo imagenes*/
     .container-imagen{
@@ -611,12 +591,10 @@ main{
         margin: 0 auto;
     }
 
-
     /*contacto*/
     .container-contacto form{
         width: 100%;
     }
-
 
     /*columnas*/
     .columna1{
@@ -640,5 +618,4 @@ main{
     .tabla td, .tabla th {
         padding: .1rem;
     }    
-
 }
